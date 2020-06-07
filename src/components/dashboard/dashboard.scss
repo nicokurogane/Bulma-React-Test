@@ -1,0 +1,22 @@
+.dashboard-container {
+  height: 100vh;
+
+  /*.column {
+    background-color: #303f9f;
+    border: 1px solid #607d8b;
+    color: white;
+  }
+*/
+
+  .menu-zone {
+    background-color: #303f9f;
+  }
+
+  .content-zone {
+    background-color: #607d8b;
+  }
+
+  .layout {
+    height: calc(100vh - 80px);
+  }
+}

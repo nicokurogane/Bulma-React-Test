@@ -2,16 +2,16 @@ import React from "react";
 import Navbar from "../navbar/Navbar";
 import "./dashboard.scss";
 
-const Dashboard = () => {
+const Dashboard = ({children}) => {
   return (
     <div className="dashboard-container">
       <Navbar />
-      <div class="columns is-mobile layout is-marginless">
-        <div class="column is-2 is-marginless menu-zone">
+      <div class="columns is-mobile  is-marginless layout">
+        <div class="column is-2 menu-zone">
          
         </div>
-        <div class="column is-10 is-marginless content-zone">
-         
+        <div class="column content-zone">
+            {children}
         </div>
       </div>
     </div>

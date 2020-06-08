@@ -2,5 +2,9 @@
 @import "bulma/sass/grid/columns.sass";
 
 html{
-    overflow-x: hidden;
+  overflow-x: hidden;
+}
+
+.columns{
+    margin:0;
 }

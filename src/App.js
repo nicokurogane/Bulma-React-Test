@@ -1,11 +1,14 @@
-import React from 'react';
-import Dashboard from './components/dashboard/Dashboard';
-import './App.scss';
+import React from "react";
+import Dashboard from "./components/dashboard/Dashboard";
+import MainContent from './components/mainContent/MainContent';
+import "./App.scss";
 
 function App() {
   return (
     <div className="App">
-      <Dashboard/>
+      <Dashboard>
+       <MainContent/>
+      </Dashboard>
     </div>
   );
 }

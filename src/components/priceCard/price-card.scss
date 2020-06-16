@@ -1,5 +1,30 @@
-.price-card-container{
-    background-color: #2abdd4;
-    border-radius: 5px;
-    
+.price-card-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #6F42C1; //#18a2b8;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 16px 16px 48px 16px;
+
+  img {
+    height: 30px;
+    width: 30px;
+    margin-right: 16px;
+    opacity: 0.75;
+  }
+
+  .price-info {
+    * {
+      margin: 0;
+    }
+
+    span{
+        font-size: 0.75rem;
+        &:first-child{
+            font-weight: bold;
+            opacity: 0.75;
+        }
+    }
+  }
 }
